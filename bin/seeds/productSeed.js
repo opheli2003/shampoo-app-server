@@ -1,5 +1,5 @@
-const mongoose = require("../../config/dbConfig");
 require("dotenv").config();
+require("../../config/dbConfig");
 const productModel = require("./../../models/product-model");
 
 const product = [
@@ -10,9 +10,8 @@ const product = [
     price: 9.99,
     image: "../../public/images/H3448d74697c745e0bd35e1c0017666f9c.webp",
     stock: 10,
-    category: 
-      "gras",
-    
+    category: "gras",
+
     type: "amande-douce",
     ingredients:
       "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
@@ -25,8 +24,7 @@ const product = [
     price: 9.99,
     image: "../../public/images/H3448d74697c745e0bd35e1c0017666f9c.webp",
     stock: 10,
-    category: "gras"
-    ,
+    category: "gras",
     type: "figue-coco",
     ingredients:
       "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
