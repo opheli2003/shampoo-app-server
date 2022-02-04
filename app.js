@@ -5,7 +5,6 @@ const path = require("path");
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 const cors = require("cors");
-
 const app = express();
 
 //? Services like heroku use something called a proxy and you need to add this to your server
@@ -24,5 +23,6 @@ app.use(
 
 app.use("/", require("./routes/index"));
 app.use("/api/auth", require("./routes/auth"));
+app.use("/api", require("./routes/product"))
 
 module.exports = app;
