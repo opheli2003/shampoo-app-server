@@ -1,4 +1,4 @@
-const mongoose = require("../../config/mongo");
+const mongoose = require("../../config/dbConfig");
 const productModel = require("./../../models/product-model");
 
 const product = [
@@ -14,7 +14,6 @@ const product = [
                     enum:['cheveux-gras']},
         Type: {type: String,
         enum:['amande-douce']},
-        id_tags: [{ type: Schema.Types.ObjectId, ref: "tags" }],
     ingredients:"AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM"
     },
 
@@ -30,7 +29,6 @@ const product = [
                     enum:['cheveux-gras']},
         Type: {type: String,
         enum:['figue-coco']},
-        id_tags: [{ type: Schema.Types.ObjectId, ref: "tags" }],
     ingredients:"AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM"
     },
 
@@ -45,7 +43,6 @@ const product = [
             enum:['cheveux-gras']},
 Type: {type: String,
 enum:['bambou']},
-id_tags: [{ type: Schema.Types.ObjectId, ref: "tags" }],
 ingredients:"AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM"
 },
 
@@ -61,7 +58,6 @@ type: String,
         enum:['cheveux-gras']},
 Type: {type: String,
 enum:['mangue-coriandre']},
-id_tags: [{ type: Schema.Types.ObjectId, ref: "tags" }],
 ingredients:"AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM"
 },
 
@@ -76,7 +72,6 @@ type: String,
         enum:['cheveux-mixtes']},
 Type: {type: String,
 enum:['amande-douce']},
-id_tags: [{ type: Schema.Types.ObjectId, ref: "tags" }],
 ingredients:"AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM"
 },
 
@@ -92,7 +87,6 @@ type: String,
         enum:['cheveux-mixtes']},
 Type: {type: String,
 enum:['mangue-coriandre']},
-id_tags: [{ type: Schema.Types.ObjectId, ref: "tags" }],
 ingredients:"AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM"
 },
 
@@ -107,7 +101,6 @@ type: String,
         enum:['cheveux-mixtes']},
 Type: {type: String,
 enum:['Figue-coco']},
-id_tags: [{ type: Schema.Types.ObjectId, ref: "tags" }],
 ingredients:"AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM"
 },
 
@@ -122,7 +115,6 @@ type: String,
         enum:['cheveux-mixtes']},
 Type: {type: String,
 enum:['bambou']},
-id_tags: [{ type: Schema.Types.ObjectId, ref: "tags" }],
 ingredients:"AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM"
 },
 
@@ -134,8 +126,7 @@ description: "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à c
  image:"url", 
  stock: 10,
  category:'cheveux secs',
- Type:'amande douce',
-id_tags: [{ type: Schema.Types.ObjectId, ref: "tags" }], },
+ Type:'amande douce'},
 
 {productName:"Shampoing stimulant à la figue coco ", 
 ref: "1F", 
@@ -144,8 +135,8 @@ description: "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à c
  image:"url", 
  stock: 10,
  category:'cheveux secs',
- Type:'figue-coco',
-id_tags: [{ type: Schema.Types.ObjectId, ref: "tags" }], },
+ Type:'figue-coco'
+},
 
 {productName:"Shampoing stimulant à la mangue et la coriandre ", 
 ref: "1M", 
@@ -154,8 +145,7 @@ description: "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à c
  image:"url", 
  stock: 10,
  category:'cheveux secs',
- Type:'mangue-coriandre',
-id_tags: [{ type: Schema.Types.ObjectId, ref: "tags" }], },
+ Type:'mangue-coriandre'},
 
 {productName:"Shampoing vivifiant au bambou ", 
 ref: "1B", 
@@ -164,8 +154,7 @@ description: "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à c
  image:"url", 
  stock: 10,
  category:'cheveux secs',
- Type:'bambou',
-id_tags: [{ type: Schema.Types.ObjectId, ref: "tags" }], },
+ Type:'bambou'},
 
 {productName:"Shampoing vitalisant à l'amande douce ", 
 ref: "2A", 
@@ -174,8 +163,7 @@ description: "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à c
  image:"url", 
  stock: 10,
  category:'cheveux normaux',
- Type:'amande douce',
-id_tags: [{ type: Schema.Types.ObjectId, ref: "tags" }], },
+ Type:'amande douce'},
 
 {productName:"Shampoing energisant à la figue et à la coco ", 
 ref: "2F", 
@@ -184,8 +172,7 @@ description: "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à c
  image:"url", 
  stock: 10,
  category:'cheveux normaux',
- Type:'figue-coco',
-id_tags: [{ type: Schema.Types.ObjectId, ref: "tags" }], },
+ Type:'figue-coco'},
 
 {productName:"Shampoing stimulant à la mangue-coriandre ", 
 ref: "2M", 
@@ -194,8 +181,7 @@ description: "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à c
  image:"url", 
  stock: 10,
  category:'cheveux normaux',
- Type:'mangue-coriandre',
-id_tags: [{ type: Schema.Types.ObjectId, ref: "tags" }], },
+ Type:'mangue-coriandre'},
 
 {productName:"Shampoing stimulant au bambou ", 
 ref: "2B", 
@@ -204,8 +190,7 @@ description: "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à c
  image:"url", 
  stock: 10,
  category:'cheveux normaux',
- Type:'bambou',
-id_tags: [{ type: Schema.Types.ObjectId, ref: "tags" }], }
+ Type:'bambou'}
 
 ]
 productModel
