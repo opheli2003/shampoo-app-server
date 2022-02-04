@@ -26,6 +26,7 @@ app.use("/api/auth", require("./routes/auth"));
 
 // PRODUCT ROUTE
 app.use("/api", require("./routes/product"))
+app.use("/api", require("./routes/reviews"))
 
 //CATEGORY ROUTE 
 app.use("/api", require("./routes/category"))

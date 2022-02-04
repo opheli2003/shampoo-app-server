@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 const categorySchema = new Schema({
 
-    category: { 
+    category: { type: String,
         enum: ["secs", "normaux", "gras", "mixtes"],
       },
 
