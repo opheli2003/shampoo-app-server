@@ -1,5 +1,5 @@
-const mongoose = require("../../config/dbConfig");
 require("dotenv").config();
+const mongoose = require("../../config/dbConfig");
 const productModel = require("./../../models/product-model");
 
 const product = [

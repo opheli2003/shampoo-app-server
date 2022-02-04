@@ -23,6 +23,12 @@ app.use(
 
 app.use("/", require("./routes/index"));
 app.use("/api/auth", require("./routes/auth"));
+
+// PRODUCT ROUTE
 app.use("/api", require("./routes/product"))
+
+//CATEGORY ROUTE 
+app.use("/api", require("./routes/category"))
+
 
 module.exports = app;

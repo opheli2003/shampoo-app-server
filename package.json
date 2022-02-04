@@ -5,7 +5,11 @@
 	"scripts": {
 		"start": "node ./bin/www",
 		"dev": "nodemon ./bin/www",
-		"seed": "node ./bin/seeds/productSeed.js"
+		"seed product": "node ./bin/seeds/productSeed.js",
+		"seed category": "node ./bin/seeds/category-seed.js",
+		"seeds": "npm run seed:product && npm run seed:category"
+
+
 	},
 	"dependencies": {
 		"bcryptjs": "^2.4.3",
