@@ -16,12 +16,12 @@ const productSchema = new Schema({
 
   category: {
     type: String,
-    enum: ["secs", "normaux", "gras", "mixtes"],
+    enum: ["secs", "normaux", "gras", "mixtes", ''],
   },
 
   type: {
     type: String,
-    enum: ["amande-douce", "bambou", "mangue-coriandre", "figue-coco"],
+    enum: ["amande-douce", "bambou", "mangue-coriandre", "figue-coco", ''],
   },
 
   id_tags: [{ type: Schema.Types.ObjectId, ref: "tags" }],

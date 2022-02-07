@@ -54,7 +54,7 @@ router.patch("/products/update/:id", async (req, res, next) => {
   }
 });
 
-//Remove one product
+//Remove one product  
 router.delete("/products/delete/:id", async (req, res, next) => {
   try {
     const deletedProduct = await ProductModel.findByIdAndDelete(req.params.id);

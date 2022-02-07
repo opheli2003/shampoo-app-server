@@ -16,6 +16,17 @@ const categoryModel = require("../models/category-model")
       .catch(next);
   });
 
+  //Get one category
+
+  router.get("/categories/:id", async (req, res, next) => {
+    try {
+      const oneCat = await categoryModel.findById(req.params.id);
+      res.status(200).json(oneCat);
+    } catch (error) {
+      next(error);
+    }
+  });
+
 // CREATE CATEGORIE - POST
 
   router.post("/category/create", async (req, res, next) => {
