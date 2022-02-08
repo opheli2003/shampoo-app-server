@@ -16,6 +16,14 @@ const categoryModel = require("../models/category-model")
       .catch(next);
   });
 
+  router.get("/categories", (req, res, next) => {
+    categoryModel.find()
+      .then((dbRes) => {
+        res.status(200).json(dbRes);
+      })
+      .catch(next);
+  });
+
   //Get one category
 
   router.get("/categories/:id", async (req, res, next) => {
