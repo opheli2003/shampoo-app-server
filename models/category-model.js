@@ -7,6 +7,7 @@ const categorySchema = new Schema({
     category: { type: String,
         enum: ["secs", "normaux", "gras", "mixtes"],
       },
+      image: String,
 
 });
 

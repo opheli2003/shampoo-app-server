@@ -8,7 +8,7 @@ const product = [
     ref: "3A",
     description: "Ce Shampooing Purifiant lave et purifie le cuir chevelu",
     price: 9.99,
-    image: "../../public/images/H3448d74697c745e0bd35e1c0017666f9c.webp",
+    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644262649/Rose_et_Orange_Anne%CC%81es_70_The%CC%80me_Soldes_Publication_3_eaxffj.jpg",
     stock: 10,
     category: "gras",
 
@@ -22,7 +22,7 @@ const product = [
     ref: "3F",
     description: "Ce Shampooing Purifiant lave et purifie le cuir chevelu",
     price: 9.99,
-    image: "../../public/images/H3448d74697c745e0bd35e1c0017666f9c.webp",
+    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644262649/Rose_et_Orange_Anne%CC%81es_70_The%CC%80me_Soldes_Publication_3_eaxffj.jpg",
     stock: 10,
     category: "gras",
     type: "figue-coco",
@@ -35,7 +35,7 @@ const product = [
     ref: "3B",
     description: "Ce Shampooing Purifiant lave et purifie le cuir chevelu",
     price: 9.99,
-    image: "../../public/images/H3448d74697c745e0bd35e1c0017666f9c.webp",
+    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644262649/Rose_et_Orange_Anne%CC%81es_70_The%CC%80me_Soldes_Publication_3_eaxffj.jpg",
     stock: 10,
     category: "gras",
     type: "bambou",
@@ -48,7 +48,7 @@ const product = [
     ref: "3M",
     description: "Ce Shampooing Purifiant lave et purifie le cuir chevelu",
     price: 9.99,
-    image: "../../public/images/H3448d74697c745e0bd35e1c0017666f9c.webp",
+    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644262649/Rose_et_Orange_Anne%CC%81es_70_The%CC%80me_Soldes_Publication_3_eaxffj.jpg",
     stock: 10,
     category: "gras",
     type: "mangue-coriandre",
@@ -62,7 +62,7 @@ const product = [
     description:
       "Ce Shampooing doux équilibrant lave et purifie le cuir chevelu",
     price: 9.99,
-    image: "../../public/images/H3448d74697c745e0bd35e1c0017666f9c.webp",
+    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644262649/Rose_et_Orange_Anne%CC%81es_70_The%CC%80me_Soldes_Publication_3_eaxffj.jpg",
     stock: 10,
     category: "mixtes",
     type: "amande-douce",
@@ -76,7 +76,7 @@ const product = [
     description:
       "Ce Shampooing doux équilibrant lave et purifie le cuir chevelu",
     price: 9.99,
-    image: "../../public/images/H3448d74697c745e0bd35e1c0017666f9c.webp",
+    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644262649/Rose_et_Orange_Anne%CC%81es_70_The%CC%80me_Soldes_Publication_3_eaxffj.jpg",
     stock: 10,
     category: "mixtes",
     type: "mangue-coriandre",
@@ -90,7 +90,7 @@ const product = [
     description:
       "Ce Shampooing doux équilibrant lave et purifie le cuir chevelu",
     price: 9.99,
-    image: "../../public/images/H3448d74697c745e0bd35e1c0017666f9c.webp",
+    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644262649/Rose_et_Orange_Anne%CC%81es_70_The%CC%80me_Soldes_Publication_3_eaxffj.jpg",
     stock: 10,
     category: "mixtes",
     type: "figue-coco",
@@ -104,7 +104,7 @@ const product = [
     description:
       "Ce Shampooing doux équilibrant lave et purifie le cuir chevelu",
     price: 9.99,
-    image: "../../public/images/H3448d74697c745e0bd35e1c0017666f9c.webp",
+    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644262649/Rose_et_Orange_Anne%CC%81es_70_The%CC%80me_Soldes_Publication_3_eaxffj.jpg",
     stock: 10,
     category: "mixtes",
     type: "bambou",
@@ -118,7 +118,7 @@ const product = [
     description:
       "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à ce shampoing 100% naturel, merci la formule enrichie en huile de carthame et de tournesol aux vertus hydratantes et anti-oxydantes",
     price: 9.99,
-    image: "url",
+    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644262649/Rose_et_Orange_Anne%CC%81es_70_The%CC%80me_Soldes_Publication_3_eaxffj.jpg",
     stock: 10,
     category: "secs",
     type: "amande-douce",
@@ -130,7 +130,7 @@ const product = [
     description:
       "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à ce shampoing 100% naturel, merci la formule enrichie en huile de carthame et de tournesol aux vertus hydratantes et anti-oxydantes",
     price: 9.99,
-    image: "url",
+    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644262649/Rose_et_Orange_Anne%CC%81es_70_The%CC%80me_Soldes_Publication_3_eaxffj.jpg",
     stock: 10,
     category: "secs",
     type: "figue-coco",
@@ -142,7 +142,7 @@ const product = [
     description:
       "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à ce shampoing 100% naturel, merci la formule enrichie en huile de carthame et de tournesol aux vertus hydratantes et anti-oxydantes",
     price: 9.99,
-    image: "url",
+    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644262649/Rose_et_Orange_Anne%CC%81es_70_The%CC%80me_Soldes_Publication_3_eaxffj.jpg",
     stock: 10,
     category: "secs",
     type: "mangue-coriandre",
@@ -154,7 +154,7 @@ const product = [
     description:
       "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à ce shampoing 100% naturel, merci la formule enrichie en huile de carthame et de tournesol aux vertus hydratantes et anti-oxydantes",
     price: 10.99,
-    image: "url",
+    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644262649/Rose_et_Orange_Anne%CC%81es_70_The%CC%80me_Soldes_Publication_3_eaxffj.jpg",
     stock: 10,
     category: "secs",
     type: "bambou",
@@ -166,7 +166,7 @@ const product = [
     description:
       "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à ce shampoing 100% naturel, merci la formule enrichie en huile de carthame et de tournesol aux vertus hydratantes et anti-oxydantes",
     price: 11.99,
-    image: "url",
+    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644262649/Rose_et_Orange_Anne%CC%81es_70_The%CC%80me_Soldes_Publication_3_eaxffj.jpg",
     stock: 10,
     category: "normaux",
     type: "amande-douce",
@@ -178,7 +178,7 @@ const product = [
     description:
       "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à ce shampoing 100% naturel, merci la formule enrichie en huile de carthame et de tournesol aux vertus hydratantes et anti-oxydantes",
     price: 11.99,
-    image: "url",
+    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644262649/Rose_et_Orange_Anne%CC%81es_70_The%CC%80me_Soldes_Publication_3_eaxffj.jpg",
     stock: 10,
     category: "normaux",
     type: "figue-coco",
@@ -190,7 +190,7 @@ const product = [
     description:
       "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à ce shampoing 100% naturel, merci la formule enrichie en huile de carthame et de tournesol aux vertus hydratantes et anti-oxydantes",
     price: 11.99,
-    image: "url",
+    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644262649/Rose_et_Orange_Anne%CC%81es_70_The%CC%80me_Soldes_Publication_3_eaxffj.jpg",
     stock: 10,
     category: "normaux",
     type: "mangue-coriandre",
@@ -202,7 +202,7 @@ const product = [
     description:
       "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à ce shampoing 100% naturel, merci la formule enrichie en huile de carthame et de tournesol aux vertus hydratantes et anti-oxydantes",
     price: 11.99,
-    image: "url",
+    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644262649/Rose_et_Orange_Anne%CC%81es_70_The%CC%80me_Soldes_Publication_3_eaxffj.jpg",
     stock: 10,
     category: "normaux",
     type: "bambou",
