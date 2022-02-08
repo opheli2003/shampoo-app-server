@@ -208,9 +208,11 @@ const product = [
     type: "bambou",
   },
 ];
+
 productModel
   .insertMany(product)
   .then((product) => {
     console.log(`${product.length} inserted`);
   })
+
   .catch((err) => console.log("no product inserted", err));
