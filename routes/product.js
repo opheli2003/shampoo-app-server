@@ -84,6 +84,16 @@ router.get('/categories/cheveux-gras', (req, res, next) => {
     .catch(next);
 })
 
+//Get one product from category gras
+router.get('/categories/cheveux-gras/:id', (req, res, next) => {
+   ProductModel.findOne({category:"gras",_id:req.params.id})
+    .then((dbResponse) => {
+      res.status(200).json(dbResponse);
+    })
+    .catch(next);
+})
+
+
 // GET all product by categories SECS 
 
 router.get('/categories/cheveux-secs', (req, res, next) => {
@@ -94,6 +104,16 @@ router.get('/categories/cheveux-secs', (req, res, next) => {
     .catch(next);
 })
 
+//Get one product from category secs
+router.get('/categories/cheveux-secs/:id', (req, res, next) => {
+  ProductModel.findOne({category:"secs",_id:req.params.id})
+   .then((dbResponse) => {
+     res.status(200).json(dbResponse);
+   })
+   .catch(next);
+})
+
+
 // GET all product by categories NORMAUX 
 
 router.get('/categories/cheveux-normaux', (req, res, next) => {
@@ -103,7 +123,17 @@ router.get('/categories/cheveux-normaux', (req, res, next) => {
     })
     .catch(next);
 })
-// GET all product by categories NORMAUX 
+
+//Get one product from category normaux
+router.get('/categories/cheveux-normaux/:id', (req, res, next) => {
+  ProductModel.findOne({category:"normaux",_id:req.params.id})
+   .then((dbResponse) => {
+     res.status(200).json(dbResponse);
+   })
+   .catch(next);
+})
+
+// GET all product by categories mixtes
 
 router.get('/categories/cheveux-mixtes', (req, res, next) => {
   ProductModel.find({ category: 'mixtes' })
@@ -111,5 +141,14 @@ router.get('/categories/cheveux-mixtes', (req, res, next) => {
       res.status(200).json(dbResponse);
     })
     .catch(next);
+})
+
+//Get one product from category mixtes
+router.get('/categories/cheveux-mixtes/:id', (req, res, next) => {
+  ProductModel.findOne({category:"mixtes",_id:req.params.id})
+   .then((dbResponse) => {
+     res.status(200).json(dbResponse);
+   })
+   .catch(next);
 })
 module.exports = router;
