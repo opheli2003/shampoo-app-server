@@ -31,5 +31,7 @@ app.use("/api", require("./routes/reviews"))
 //CATEGORY ROUTE 
 app.use("/api", require("./routes/category"))
 
+//CART Route
+app.use("/api", require("./routes/cart"))
 
 module.exports = app;
