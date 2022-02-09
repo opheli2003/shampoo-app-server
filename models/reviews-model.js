@@ -13,6 +13,7 @@ const reviewSchema = new Schema({
 
   rating: Number,
   date: Date,
+  image: String,
 });
 
 const reviewModel = mongoose.model("Review", reviewSchema);

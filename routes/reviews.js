@@ -5,20 +5,23 @@ const productModel = require ("../models/product-model")
 //Routes = prefixed with /api
 
 //Get the form to create a review
-router.get("/reviews/create", (req, res, next) => {
+/* router.get("categories/cheveux-gras/product/:id/review/create", (req, res, next) => {
   reviewModel
     .find()
     .then((dbResponse) => {
       res.status(200).json(dbResponse);
     })
     .catch(next);
-});
+}); */
 
 //Create one review - post - create new review
-router.post("/reviews/create", async (req, res, next) => {
+router.post("categories/cheveux-gras/product/:id/reviews/create", async (req, res, next) => {
+ const {reviewTitle,review,user,product,rate,date} = {...req.body}
+
+ const  product =await productModel.findByIdAndUpdate({rating},{new:true})
   try {
-    const createdReview = await reviewModel.create(req.body);
-    res.status(201).json(createdReview);
+    const newReview = await reviewModel.created({reviewTitle,product:product._id,review,user:req.session.currentUser._id,rate,date})
+    res.status(201).json(newReview);
   } catch (e) {
     next(e);
   }

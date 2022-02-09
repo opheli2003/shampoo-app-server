@@ -27,6 +27,7 @@ const productSchema = new Schema({
   id_tags: [{ type: Schema.Types.ObjectId, ref: "tags" }],
 
   ingredients: String,
+  rating:Number
 });
 
 const productModel = mongoose.model("Product", productSchema);
