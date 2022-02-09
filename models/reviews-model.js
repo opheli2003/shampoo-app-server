@@ -12,7 +12,9 @@ const reviewSchema = new Schema({
   product: { type: Schema.Types.ObjectId, ref: "product" },
 
   rating: Number,
-  date: Date,
+  date: {type: Date, default: Date.now},
+
+  image: String,
 });
 
 const reviewModel = mongoose.model("Review", reviewSchema);

@@ -2,27 +2,41 @@ const router = require("express").Router();
 const reviewModel = require("../models/reviews-model");
 const UserModel = require("../models/User-model")
 const productModel = require ("../models/product-model")
+const isAuthenticated = require("../middlewares/jwt.middleware");
+const fileUploader = require("../config/cloudinary");
+
 //Routes = prefixed with /api
 
 //Get the form to create a review
-router.get("/reviews/create", (req, res, next) => {
+/* router.get("categories/cheveux-gras/product/:id/review/create", (req, res, next) => {
   reviewModel
     .find()
     .then((dbResponse) => {
       res.status(200).json(dbResponse);
     })
     .catch(next);
-});
+}); */
 
 //Create one review - post - create new review
-router.post("/reviews/create", async (req, res, next) => {
+router.post("/product/:id/reviews", fileUploader.single("image"), async (req, res, next) => {
+  console.log('i am in the create review route in the back and i receive: ', req.body)
+ const {reviewTitle,review,rating,date} = {...req.body}
+const productId = req.params.id 
   try {
-    const createdReview = await reviewModel.create(req.body);
-    res.status(201).json(createdReview);
+    const newReview = await reviewModel.create({reviewTitle,product:productId,review,rating,date:Date.now()})
+    res.status(201).json(newReview);
   } catch (e) {
     next(e);
   }
 });
+
+
+/* const newReview = await reviewModel.create({reviewTitle,product:product._id,review,user:req.payload._id,rating,date})
+ */
+/* utiliser le payload middleware jwvt...
+ *//* const  product = sawait productModel.findByIdAndUpdate({rating},{new:true})
+ */
+
 
 //delete one review - post - create new review
 
