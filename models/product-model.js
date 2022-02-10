@@ -16,7 +16,7 @@ const productSchema = new Schema({
 
   category: {
     type: String,
-    enum: ["secs", "normaux", "gras", "mixtes", ''],
+    enum: ["cheveux secs", "cheveux normaux", "cheveux gras", "cheveux mixtes", ''],
   },
 
   type: {

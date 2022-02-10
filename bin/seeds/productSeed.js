@@ -11,7 +11,7 @@ const product = [
     image:
       "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
     stock: 10,
-    category: "gras",
+    category: "cheveux gras",
 
     type: "amande-douce",
     ingredients:
@@ -26,7 +26,7 @@ const product = [
     image:
       "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_FIGUE_COCO_4_MOIS_8992-481831_70x_2x_lvzrzs.png",
     stock: 10,
-    category: "gras",
+    category: "cheveux gras",
     type: "figue-coco",
     ingredients:
       "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
@@ -40,7 +40,7 @@ const product = [
     image:
       "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_OCEAN_4_MOIS_8997-556078_70x_2x_zgbmjt.png",
     stock: 10,
-    category: "gras",
+    category: "cheveux gras",
     type: "bambou",
     ingredients:
       "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
@@ -54,7 +54,7 @@ const product = [
     image:
       "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
     stock: 10,
-    category: "gras",
+    category: "cheveux gras",
     type: "mangue-coriandre",
     ingredients:
       "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
@@ -69,7 +69,7 @@ const product = [
     image:
       "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
     stock: 10,
-    category: "mixtes",
+    category: "cheveux mixtes",
     type: "amande-douce",
     ingredients:
       "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
@@ -84,7 +84,7 @@ const product = [
     image:
       "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
     stock: 10,
-    category: "mixtes",
+    category: "cheveux mixtes",
     type: "mangue-coriandre",
     ingredients:
       "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
@@ -99,7 +99,7 @@ const product = [
     image:
       "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_FIGUE_COCO_4_MOIS_8992-481831_70x_2x_lvzrzs.png",
     stock: 10,
-    category: "mixtes",
+    category: "cheveux mixtes",
     type: "figue-coco",
     ingredients:
       "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
@@ -114,7 +114,7 @@ const product = [
     image:
       "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_OCEAN_4_MOIS_8997-556078_70x_2x_zgbmjt.png",
     stock: 10,
-    category: "mixtes",
+    category: "cheveux mixtes",
     type: "bambou",
     ingredients:
       "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
@@ -129,7 +129,7 @@ const product = [
     image:
       "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
     stock: 10,
-    category: "secs",
+    category: "cheveux secs",
     type: "amande-douce",
     ingredients:
       "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
@@ -144,7 +144,7 @@ const product = [
     image:
       "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_FIGUE_COCO_4_MOIS_8992-481831_70x_2x_lvzrzs.png",
     stock: 10,
-    category: "secs",
+    category: "cheveux secs",
     type: "figue-coco",
     ingredients:
       "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
@@ -159,7 +159,7 @@ const product = [
     image:
       "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
     stock: 10,
-    category: "secs",
+    category: "cheveux secs",
     type: "mangue-coriandre",
     ingredients:
       "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
@@ -174,7 +174,7 @@ const product = [
     image:
       "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_OCEAN_4_MOIS_8997-556078_70x_2x_zgbmjt.png",
     stock: 10,
-    category: "secs",
+    category: "cheveux secs",
     type: "bambou",
     ingredients:
       "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
@@ -189,7 +189,7 @@ const product = [
     image:
       "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
     stock: 10,
-    category: "normaux",
+    category: "cheveux normaux",
     type: "amande-douce",
     ingredients:
       "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
@@ -204,7 +204,7 @@ const product = [
     image:
       "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_FIGUE_COCO_4_MOIS_8992-481831_70x_2x_lvzrzs.png",
     stock: 10,
-    category: "normaux",
+    category: "cheveux normaux",
     type: "figue-coco",
     ingredients:
       "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
@@ -219,7 +219,7 @@ const product = [
     image:
       "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
     stock: 10,
-    category: "normaux",
+    category: "cheveux normaux",
     type: "mangue-coriandre",
     ingredients:
       "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
@@ -234,7 +234,7 @@ const product = [
     image:
       "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_OCEAN_4_MOIS_8997-556078_70x_2x_zgbmjt.png",
     stock: 10,
-    category: "normaux",
+    category: "cheveux normaux",
     type: "bambou",
     ingredients:
       "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
