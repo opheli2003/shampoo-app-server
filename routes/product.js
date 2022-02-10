@@ -45,7 +45,6 @@ router.get("/products/:id", async (req, res, next) => {
 
 //Update one product
 router.patch("/products/update/:id",fileUploader.single('image'), async (req, res, next) => {
-  console.log('i am in the route', req.body)
   if (!req.file) updatedImage = undefined;
   else updatedImage= req.file.path;
   console.log(updatedImage);

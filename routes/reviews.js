@@ -19,11 +19,14 @@ const fileUploader = require("../config/cloudinary");
 
 //Create one review - post - create new review
 router.post("/product/:id/reviews", fileUploader.single("image"), async (req, res, next) => {
-  console.log('i am in the create review route in the back and i receive: ', req.body)
- const {reviewTitle,review,rating,date} = {...req.body}
+  let image; 
+ if(req.file) image= req.file.path;
+  console.log(image);
+  
+const {reviewTitle,review,rating} = req.body
 const productId = req.params.id 
   try {
-    const newReview = await reviewModel.create({reviewTitle,product:productId,review,rating,date:Date.now()})
+    const newReview = await reviewModel.create({reviewTitle,product:productId,review,rating,date:Date.now(),image})
     res.status(201).json(newReview);
   } catch (e) {
     next(e);

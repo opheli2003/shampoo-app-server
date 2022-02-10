@@ -18,6 +18,8 @@ const cartSchema = new Schema({
       //   price: Number,
     },
   ],
+  quantity:Number,
+  
 });
 
 const cartModel = mongoose.model("Cart", cartSchema);
