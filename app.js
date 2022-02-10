@@ -45,7 +45,7 @@ app.use("/api/*", (req, res, next) => {
 if (process.env.NODE_ENV === "production") {
   app.use("*", (req, res, next) => {
     // If no routes match, send them the React HTML.
-    res.sendFile(path.join(__dirname, "public/index.html"));
+    res.sendFile(path.join(__dirname, "public", "index.html"));
   });
 }
 

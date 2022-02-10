@@ -8,7 +8,7 @@
 	  
 	"main": "app.js",
 	"scripts": {
-		"start": "node app.js",
+		"start": "node ./bin/www",
 		"dev": "nodemon ./bin/www",
 		"seed:product": "node ./bin/seeds/productSeed.js",
 		"seed:category": "node ./bin/seeds/category-seed.js",
