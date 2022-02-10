@@ -15,25 +15,38 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 app.use(
-	cors({
-		credentials: true,
-		origin: process.env.FRONTEND_URL || "http://localhost:3000",
-	})
+  cors({
+    credentials: true,
+    origin: process.env.FRONTEND_URL || "http://localhost:3000",
+  })
 );
 
 app.use("/", require("./routes/index"));
 app.use("/api/auth", require("./routes/auth"));
 
 // PRODUCT ROUTE
-app.use("/api", require("./routes/product"))
+app.use("/api", require("./routes/product"));
 
 // REVIEW ROUTE
-app.use("/api", require("./routes/reviews"))
+app.use("/api", require("./routes/reviews"));
 
-//CATEGORY ROUTE 
-app.use("/api", require("./routes/category"))
+//CATEGORY ROUTE
+app.use("/api", require("./routes/category"));
 
 //CART Route
-app.use("/api", require("./routes/cart"))
+app.use("/api", require("./routes/cart"));
+
+app.use("/api/*", (req, res, next) => {
+  const error = new Error("Ressource not found.");
+  error.status = 404;
+  next(error);
+});
+
+if (process.env.NODE_ENV === "production") {
+  app.use("*", (req, res, next) => {
+    // If no routes match, send them the React HTML.
+    res.sendFile(path.join(__dirname, "public/index.html"));
+  });
+}
 
 module.exports = app;
