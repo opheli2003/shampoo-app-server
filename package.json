@@ -2,9 +2,13 @@
 	"name": "fullstack-server",
 	"version": "0.0.1",
 	"private": true,
+	"engines": {
+		"node": "12.x"
+	  },
+	  
 	"main": "app.js",
 	"scripts": {
-		"start": "node app.js",
+		"start": "node ./bin/www",
 		"dev": "nodemon ./bin/www",
 		"seed:product": "node ./bin/seeds/productSeed.js",
 		"seed:category": "node ./bin/seeds/category-seed.js",
@@ -12,6 +16,7 @@
 	},
 	"dependencies": {
 		"bcryptjs": "^2.4.3",
+		"bootstrap-icons": "^1.8.1",
 		"cloudinary": "^1.28.1",
 		"cookie-parser": "~1.4.4",
 		"cors": "^2.8.5",
