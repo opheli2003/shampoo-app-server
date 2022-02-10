@@ -4,7 +4,7 @@ const productModel = require("./../../models/product-model");
 
 const product = [
   {
-    productName: "Shampoing Purifiant",
+    productName: "Shampoing Purifiant à l'amande douce",
     ref: "3A",
     description: "Ce Shampooing Purifiant lave et purifie le cuir chevelu",
     price: 9.99,
@@ -19,7 +19,7 @@ const product = [
   },
 
   {
-    productName: "Shampoing Purifiant",
+    productName: "Shampoing Purifiant à la figue-coco",
     ref: "3F",
     description: "Ce Shampooing Purifiant lave et purifie le cuir chevelu",
     price: 9.99,
@@ -33,7 +33,7 @@ const product = [
   },
 
   {
-    productName: "Shampoing Purifiant",
+    productName: "Shampoing Purifiant au bambou",
     ref: "3B",
     description: "Ce Shampooing Purifiant lave et purifie le cuir chevelu",
     price: 9.99,
@@ -47,7 +47,7 @@ const product = [
   },
 
   {
-    productName: "Shampoing Purifiant",
+    productName: "Shampoing Purifiant à la mangue-coriandre",
     ref: "3M",
     description: "Ce Shampooing Purifiant lave et purifie le cuir chevelu",
     price: 9.99,
@@ -61,7 +61,7 @@ const product = [
   },
 
   {
-    productName: "Shampoing Equilibrant",
+    productName: "Shampoing Equilibrant à l'amande-douce",
     ref: "4A",
     description:
       "Ce Shampooing doux équilibrant lave et purifie le cuir chevelu",
@@ -76,7 +76,7 @@ const product = [
   },
 
   {
-    productName: "Shampoing Equilibrant",
+    productName: "Shampoing Equilibrant à la mangue-coriandre",
     ref: "4M",
     description:
       "Ce Shampooing doux équilibrant lave et purifie le cuir chevelu",
@@ -91,7 +91,7 @@ const product = [
   },
 
   {
-    productName: "Shampoing Equilibrant",
+    productName: "Shampoing Equilibrant à la figue-coco",
     ref: "4F",
     description:
       "Ce Shampooing doux équilibrant lave et purifie le cuir chevelu",
@@ -106,7 +106,7 @@ const product = [
   },
 
   {
-    productName: "Shampoing Equilibrant",
+    productName: "Shampoing Equilibrant au bambou ",
     ref: "4B",
     description:
       "Ce Shampooing doux équilibrant lave et purifie le cuir chevelu",
