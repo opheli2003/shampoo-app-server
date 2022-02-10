@@ -28,9 +28,10 @@ const category = [
   },
 ];
 
-categoryModel
-  .insertMany(category)
-  .then((category) => {
-    console.log(`${category.length} inserted`);
+categoryModel.deleteMany()
+  .then(
+    categoryModel.insertMany(category).then((dbSuccess) => {
+    console.log(`${dbSuccess.length} inserted`);
+    process.exit()
   })
-  .catch((err) => console.log("no category inserted", err));
+  .catch((err) => console.log("no category inserted", err)))

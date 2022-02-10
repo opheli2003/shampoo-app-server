@@ -8,7 +8,8 @@ const product = [
     ref: "3A",
     description: "Ce Shampooing Purifiant lave et purifie le cuir chevelu",
     price: 9.99,
-    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
+    image:
+      "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
     stock: 10,
     category: "gras",
 
@@ -22,7 +23,8 @@ const product = [
     ref: "3F",
     description: "Ce Shampooing Purifiant lave et purifie le cuir chevelu",
     price: 9.99,
-    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_FIGUE_COCO_4_MOIS_8992-481831_70x_2x_lvzrzs.png",
+    image:
+      "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_FIGUE_COCO_4_MOIS_8992-481831_70x_2x_lvzrzs.png",
     stock: 10,
     category: "gras",
     type: "figue-coco",
@@ -35,7 +37,8 @@ const product = [
     ref: "3B",
     description: "Ce Shampooing Purifiant lave et purifie le cuir chevelu",
     price: 9.99,
-    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_OCEAN_4_MOIS_8997-556078_70x_2x_zgbmjt.png",
+    image:
+      "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_OCEAN_4_MOIS_8997-556078_70x_2x_zgbmjt.png",
     stock: 10,
     category: "gras",
     type: "bambou",
@@ -48,7 +51,8 @@ const product = [
     ref: "3M",
     description: "Ce Shampooing Purifiant lave et purifie le cuir chevelu",
     price: 9.99,
-    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
+    image:
+      "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
     stock: 10,
     category: "gras",
     type: "mangue-coriandre",
@@ -62,7 +66,8 @@ const product = [
     description:
       "Ce Shampooing doux équilibrant lave et purifie le cuir chevelu",
     price: 9.99,
-    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
+    image:
+      "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
     stock: 10,
     category: "mixtes",
     type: "amande-douce",
@@ -76,7 +81,8 @@ const product = [
     description:
       "Ce Shampooing doux équilibrant lave et purifie le cuir chevelu",
     price: 9.99,
-    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
+    image:
+      "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
     stock: 10,
     category: "mixtes",
     type: "mangue-coriandre",
@@ -90,7 +96,8 @@ const product = [
     description:
       "Ce Shampooing doux équilibrant lave et purifie le cuir chevelu",
     price: 9.99,
-    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_FIGUE_COCO_4_MOIS_8992-481831_70x_2x_lvzrzs.png",
+    image:
+      "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_FIGUE_COCO_4_MOIS_8992-481831_70x_2x_lvzrzs.png",
     stock: 10,
     category: "mixtes",
     type: "figue-coco",
@@ -104,7 +111,8 @@ const product = [
     description:
       "Ce Shampooing doux équilibrant lave et purifie le cuir chevelu",
     price: 9.99,
-    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_OCEAN_4_MOIS_8997-556078_70x_2x_zgbmjt.png",
+    image:
+      "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_OCEAN_4_MOIS_8997-556078_70x_2x_zgbmjt.png",
     stock: 10,
     category: "mixtes",
     type: "bambou",
@@ -118,12 +126,13 @@ const product = [
     description:
       "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à ce shampoing 100% naturel, merci la formule enrichie en huile de carthame et de tournesol aux vertus hydratantes et anti-oxydantes",
     price: 9.99,
-    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
+    image:
+      "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
     stock: 10,
     category: "secs",
     type: "amande-douce",
     ingredients:
-    "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
+      "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
   },
 
   {
@@ -132,12 +141,13 @@ const product = [
     description:
       "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à ce shampoing 100% naturel, merci la formule enrichie en huile de carthame et de tournesol aux vertus hydratantes et anti-oxydantes",
     price: 9.99,
-    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_FIGUE_COCO_4_MOIS_8992-481831_70x_2x_lvzrzs.png",
+    image:
+      "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_FIGUE_COCO_4_MOIS_8992-481831_70x_2x_lvzrzs.png",
     stock: 10,
     category: "secs",
     type: "figue-coco",
     ingredients:
-    "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
+      "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
   },
 
   {
@@ -146,12 +156,13 @@ const product = [
     description:
       "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à ce shampoing 100% naturel, merci la formule enrichie en huile de carthame et de tournesol aux vertus hydratantes et anti-oxydantes",
     price: 9.99,
-    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
+    image:
+      "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
     stock: 10,
     category: "secs",
     type: "mangue-coriandre",
     ingredients:
-    "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
+      "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
   },
 
   {
@@ -160,12 +171,13 @@ const product = [
     description:
       "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à ce shampoing 100% naturel, merci la formule enrichie en huile de carthame et de tournesol aux vertus hydratantes et anti-oxydantes",
     price: 10.99,
-    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_OCEAN_4_MOIS_8997-556078_70x_2x_zgbmjt.png",
+    image:
+      "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_OCEAN_4_MOIS_8997-556078_70x_2x_zgbmjt.png",
     stock: 10,
     category: "secs",
     type: "bambou",
     ingredients:
-    "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
+      "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
   },
 
   {
@@ -174,12 +186,13 @@ const product = [
     description:
       "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à ce shampoing 100% naturel, merci la formule enrichie en huile de carthame et de tournesol aux vertus hydratantes et anti-oxydantes",
     price: 11.99,
-    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
+    image:
+      "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
     stock: 10,
     category: "normaux",
     type: "amande-douce",
     ingredients:
-    "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
+      "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
   },
 
   {
@@ -188,12 +201,13 @@ const product = [
     description:
       "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à ce shampoing 100% naturel, merci la formule enrichie en huile de carthame et de tournesol aux vertus hydratantes et anti-oxydantes",
     price: 11.99,
-    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_FIGUE_COCO_4_MOIS_8992-481831_70x_2x_lvzrzs.png",
+    image:
+      "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_FIGUE_COCO_4_MOIS_8992-481831_70x_2x_lvzrzs.png",
     stock: 10,
     category: "normaux",
     type: "figue-coco",
     ingredients:
-    "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
+      "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
   },
 
   {
@@ -202,12 +216,13 @@ const product = [
     description:
       "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à ce shampoing 100% naturel, merci la formule enrichie en huile de carthame et de tournesol aux vertus hydratantes et anti-oxydantes",
     price: 11.99,
-    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
+    image:
+      "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504911/LIFESTYLE_GELDOUCHE_AMANDE_4_MOIS_8982-433352_1024x1024_2x_zeje76.png",
     stock: 10,
     category: "normaux",
     type: "mangue-coriandre",
     ingredients:
-    "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
+      "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
   },
 
   {
@@ -216,19 +231,22 @@ const product = [
     description:
       "CE QUE CE PRODUIT FAIT. Des cheveux nourris et adoucis grâce à ce shampoing 100% naturel, merci la formule enrichie en huile de carthame et de tournesol aux vertus hydratantes et anti-oxydantes",
     price: 11.99,
-    image: "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_OCEAN_4_MOIS_8997-556078_70x_2x_zgbmjt.png",
+    image:
+      "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/LIFESTYLE_GELDOUCHE_OCEAN_4_MOIS_8997-556078_70x_2x_zgbmjt.png",
     stock: 10,
     category: "normaux",
     type: "bambou",
     ingredients:
-    "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
+      "AQUA/WATER EAUAMMONIUM LAURYL SULFATECOCAMIDOPROPYL BETAINESODIUM BENZOATEPARFUM FRAGRANCEZINC GLUCONATESODIUM",
   },
 ];
 
-productModel
-  .insertMany(product)
-  .then((product) => {
-    console.log(`${product.length} inserted`);
-  })
-
-  .catch((err) => console.log("no product inserted", err));
+productModel.deleteMany().then(
+  productModel
+    .insertMany(product)
+    .then((dbSuccess) => {
+      console.log(`${dbSuccess.length} products inserted`);
+      process.exit();
+    })
+    .catch((err) => console.log("no category inserted", err))
+);
