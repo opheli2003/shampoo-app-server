@@ -6,25 +6,25 @@ const category = [
   {
     category: "secs",
     image:
-      "://res.cloudinary.com/alexaiscoding/image/upload/v1644262650/Rose_et_Orange_Anne%CC%81es_70_The%CC%80me_Soldes_Publication_kipnvn.png",
+      "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/gel-de-douche_2-404277_c5777a2d-c26f-4604-bd69-d1513e4cf49f-762398_70x_2x_mv1n4y.jpg",
   },
 
   {
     category: "normaux",
     image:
-      "://res.cloudinary.com/alexaiscoding/image/upload/v1644262649/Rose_et_Orange_Anne%CC%81es_70_The%CC%80me_Soldes_Publication_bdcnzd.jpg",
+      "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/gel-de-douche_4-922103_b2232fd3-626e-432e-b1a2-1b747f4a2ce0-490460_70x_2x_mfm0re.jpg",
   },
 
   {
     category: "gras",
     image:
-      "://res.cloudinary.com/alexaiscoding/image/upload/v1644262649/Rose_et_Orange_Anne%CC%81es_70_The%CC%80me_Soldes_Publication_1_bu8vno.jpg",
+      "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/gel-de-douche_3-725346_a016c90a-00ea-4eee-8084-14b734d9b7c7-439405_70x_2x_lo8i0a.jpg",
   },
 
   {
     category: "mixtes",
     image:
-      "://res.cloudinary.com/alexaiscoding/image/upload/v1644262649/Rose_et_Orange_Anne%CC%81es_70_The%CC%80me_Soldes_Publication_2_skmedj.jpg",
+      "https://res.cloudinary.com/alexaiscoding/image/upload/v1644504910/gel-de-douche_4-922103_b2232fd3-626e-432e-b1a2-1b747f4a2ce0-490460_70x_2x_mfm0re.jpg",
   },
 ];
 
